@@ -1,12 +1,23 @@
 {
-  "name": "inside-bug",
-  "version": "1.0.0",
-  "description": "",
-  "main": ".prettierrc.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+	"name": "inside-bug",
+	"version": "1.0.0",
+	"description": "",
+	"main": ".prettierrc.js",
+	"scripts": {
+		"start": "next"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"next": "^10.2.2",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"react-resizable": "^3.0.1",
+		"use-debounce": "^6.0.1",
+		"usewhat": "^1.0.46"
+	},
+	"devDependencies": {
+		"@types/react": "^17.0.6"
+	}
 }
