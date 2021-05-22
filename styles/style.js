@@ -1,11 +1,11 @@
 export const style = (
-	<style global jsx>{`
+	<style global jsx>{css`
 		body {
 			background: white;
 		}
 
 		textarea {
-			marign: 0;
+			margin: 0;
 			font-size: 1rem;
 			padding: 0.6rem;
 			border-radius: 2rem;
