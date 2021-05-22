@@ -1,11 +1,16 @@
 import {useWhat} from 'usewhat'
 
-const InsideBug = () => {
-	const [user, setUser] = useWhat('sahil', {name: 'Sahil'})
+let {log} = console
 
-	log(useWhat, getWhat)
+const App = () => {
+	const [code, setCode] = useWhat('code', '')
 
-	return 'i want to use my library..!'
+	return (
+		<div>
+			<h1>Taitae</h1>
+			<textarea>I am text area..</textarea>
+		</div>
+	)
 }
 
-export default InsideBug
+export default App

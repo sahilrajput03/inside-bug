@@ -1,11 +1,15 @@
-// import dynamic from 'next/dynamic'
-// import {MyResizable} fro../utils/Testing.jsTesting.js'
-import {InsideBug} from '../components/InsideBug'
+import dynamic from 'next/dynamic'
+import React from 'react'
 
-let {log} = console
+const ClienRenderedComponent = dynamic(
+	() => import('../components/InsideBug'),
+	{
+		ssr: false, // I disabled the server rendering this way!!! Thanks to 🥇︎: https://github.com/vercel/next.js/issues/9890#issuecomment-605543395
+	}
+)
 
-const Index = () => {
-	return <InsideBug />
+const HomePage = () => {
+	return <ClienRenderedComponent />
 }
 
-export default Index
+export default HomePage
