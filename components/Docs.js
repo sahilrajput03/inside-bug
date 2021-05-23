@@ -38,7 +38,13 @@ const TodoNext = (
 				line(span) elements. The key events arrow-up, arrow-down and enter key
 				has been added(check the browser logs for that).{' '}
 			</li>
-			<li></li>
+			<li>
+				Inject the some code inside the eval function so you can fetch the
+				binding value from the input code from the user then.!!!
+				<br />
+				Say, watch the code execution method in the image @ `tai-tae-dev` group
+				of discord server for implementation deatails.
+			</li>
 		</ul>
 	</div>
 )
