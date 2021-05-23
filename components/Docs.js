@@ -29,8 +29,23 @@ const WhatDoesntWorks = (
 	</div>
 )
 
+const TodoNext = (
+	<div>
+		<h3>Todo </h3>
+		<ul>
+			<li>
+				Modify the multi line ability to navigate to respective up and down
+				line(span) elements. The key events arrow-up, arrow-down and enter key
+				has been added(check the browser logs for that).{' '}
+			</li>
+			<li></li>
+		</ul>
+	</div>
+)
+
 export const Docs = (
 	<div>
+		{TodoNext}
 		{WhatDoesntWorks}
 		{WhatWorks}
 	</div>

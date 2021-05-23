@@ -23,3 +23,42 @@ ul.bad {
 body {
 	caret-color: green;
 }
+
+.output-green {
+	margin-left: 2px;
+	color: green;
+}
+
+input {
+	outline: none; /* Not redundant!*/
+	border: none; /* Not redundant!*/
+	/* border-right: dotted 1px deeppink; */
+	/* margin-right: 10px; */
+	/* width: 100%; */
+}
+
+/* 🤺︎🤺︎🤺︎from css-tricks... */
+/* article link: https://css-tricks.com/auto-growing-inputs-textareas/ */
+.input-wrap {
+	position: relative;
+}
+.input-wrap .input {
+	position: absolute;
+	left: 0;
+	width: 100%;
+}
+.width-machine {
+	/*  🔽︎🔽︎  Sort of a magic number to add extra space for number spinner */
+	padding: 0 1rem;
+	/* border: 2px solid pink; */
+	/* ^^ Debug only.. */
+}
+/* 🤺︎🤺︎🤺︎ 🔼︎🔼︎ from css-tricks... */
+
+.code-area {
+	border: 1px solid deeppink;
+	border-radius: 1rem;
+	padding: 10px;
+	width: 800px;
+	display: flex;
+}
