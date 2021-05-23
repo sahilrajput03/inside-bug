@@ -4,7 +4,8 @@
 	"description": "",
 	"main": ".prettierrc.js",
 	"scripts": {
-		"start": "next"
+		"start": "next",
+		"build": "next build"
 	},
 	"keywords": [],
 	"author": "",
