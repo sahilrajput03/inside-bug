@@ -1,12 +1,11 @@
 import {useEffect} from 'react'
 import {useWhat} from 'usewhat'
-import {style} from '../styles/style'
 import {Docs} from 'components/Docs'
 
 let {log} = console
 
 const App = () => {
-	const [line, setLine] = useWhat(`line1`, 'let m = 2 + 3')
+	const [line, setLine] = useWhat(`line1`, 'let m = 2 + "kadam"')
 	const [output, setOutput] = useWhat(`line1_output`, '')
 
 	useEffect(() => {
@@ -41,7 +40,7 @@ const App = () => {
 				{/*  */}
 			</div>
 			{Docs}
-			{style}
+			{/* {style} */}
 		</div>
 	)
 }
